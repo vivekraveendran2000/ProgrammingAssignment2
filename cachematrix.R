@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## If matrix availabel, stores the matrix in cache else stores NULL
 makeCacheMatrix <- function(x = matrix()) {
 
   invertedMatrix <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## loads cached inverted matrix or calculates that and returns inverted matrix
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   invertedMatrix <- x$getInverse()
